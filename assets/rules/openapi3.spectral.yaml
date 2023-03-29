@@ -1,7 +1,7 @@
 extends: "spectral:oas"
 rules:
-  info-contract: error
-  operation_tags: error
+  info-contact: error
+  operation-tags: error
   tags-should-have-description:
     description: Tags must have a description
     given: $.tags[*]

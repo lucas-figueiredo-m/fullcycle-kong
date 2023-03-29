@@ -1,4 +1,4 @@
-extends: [spectral:oas]
+extends: "spectral:oas"
 rules:
   info-contract: error
   operation_tags: error
